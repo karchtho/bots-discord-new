@@ -1,0 +1,27 @@
+[tool.ruff]
+# Longueur de ligne maximale
+line-length = 100
+
+# Version Python cible
+target-version = "py311"
+
+[tool.ruff.lint]
+# Règles à activer (équivalent pylint/flake8)
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort (tri des imports)
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+]
+
+# Règles à ignorer si besoin
+ignore = []
+
+[tool.ruff.format]
+# Style de formatage (comme Black)
+quote-style = "double"
+indent-style = "space"

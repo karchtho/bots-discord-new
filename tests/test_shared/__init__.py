@@ -1,0 +1,3 @@
+"""
+test_shared package
+"""

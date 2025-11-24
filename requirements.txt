@@ -1,0 +1,29 @@
+# Discord
+discord.py==2.3.2
+
+# RSS
+feedparser==6.0.10
+
+# Configuration
+python-dotenv==1.0.0
+pyyaml>=6.0
+
+# HTTP
+aiohttp==3.11.0
+
+# Base de données (futur)
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# Tests
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Outils de dev (linting & formatting)
+ruff>=0.1.0
+beautifulsoup4>=4.11.0
+dateparser>=1.1.0
+
+# Bot RSS spécifique
+beautifulsoup4>=4.11.0
+dateparser>=1.1.0
