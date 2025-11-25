@@ -1,9 +1,7 @@
 from datetime import UTC, datetime
-from turtle import color
-from typing import Any, Optional
+from typing import Any
 
 import discord
-from sqlalchemy import true
 
 
 class EmbedTemplates:
